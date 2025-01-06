@@ -1,0 +1,49 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv
+.env
+
+# Flask instance and config
+instance/
+*.cfg
+*.ini
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pytest and coverage
+.pytest_cache/
+.coverage
+.cache/
+htmlcov/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Flask-SocketIO eventlet logs
+*.pid
+
+# Uploads and static files
+uploads/
+staticfiles/
