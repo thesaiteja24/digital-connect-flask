@@ -64,7 +64,7 @@ def register():
         mongo.users.insert_one(
             {"username": username, "email": email, "password": hashed_password, "role": role})
 
-        return redirect(url_for('render_login'))
+        return redirect(url_for('login'))
 
     return render_template('register.html')
 
